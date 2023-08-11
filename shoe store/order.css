@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(245, 243, 239);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.details input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: goldenrod;
+}
