@@ -1,0 +1,93 @@
+* {box-sizing: border-box}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(75, 165, 233);
+    margin-left: 3rem;
+}
+
+#position{
+    position:fixed;
+}
+
+.tab {
+  float: left;
+  width: 30%;
+  height: 300px;
+}
+
+.tab img{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+}
+
+.tab button {
+  display:block;
+  background-color: antiquewhite;
+  color: rgb(14, 14, 13);
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-left: 5rem;
+}
+
+.tab button:hover {
+  background-color: rgb(228, 207, 181);
+}
+
+.tab button.active {
+  background-color: rgb(224, 190, 145);
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  margin-left:30rem;
+  margin-top:8rem;
+}
+
+img{
+    width:100px;
+    height:100px;
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+
+a1{
+  margin-left: 25px;
+}
+
+a2{
+  margin-left: 40px;
+}
+
+a3{
+  margin-left: 37px;
+}
+
+.gird-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px; 
+}
+
+.gird-container a{
+  margin-top:1rem;
+  text-decoration: none;
+}
+
+.gird-container p{
+  margin-left: 25px;
+  color:rgb(29, 28, 28);
+}
